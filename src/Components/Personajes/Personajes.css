@@ -1,0 +1,11 @@
+.containerpersonajes {
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 80%;
+  color: crimson;
+}

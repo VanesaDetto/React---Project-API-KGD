@@ -1,0 +1,40 @@
+.navegador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  height: 500px;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(86, 79, 79, 0.34);
+  color: aliceblue;
+  text-align: center;
+  font-size: 16px;
+  transition: all 0, 4s ease-in-out;
+  width: 200px;
+  margin: 10px;
+}
+button:hover {
+  transform: scale(1);
+  background-color: #5f94ceaf;
+}
+
+p {
+  margin-left: 50px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.buttonencuesta p {
+  display: flex;
+  flex-wrap: wrap;
+  color: red;
+  text-align: left;
+}
